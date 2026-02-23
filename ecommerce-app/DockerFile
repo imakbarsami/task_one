@@ -1,5 +1,5 @@
 # Base image for PHP
-FROM php:8.2-cli
+FROM php:8.4-cli
 
 # Install dependencies for Laravel and Node.js for Vite
 RUN apt-get update -y && apt-get install -y libzip-dev zip unzip git nodejs npm
